@@ -1,0 +1,77 @@
+{
+  "name": "expo-multi-screen-starter",
+  "version": "0.0.2",
+  "description": "react native multi screen application starter with expo",
+  "author": "Caleb Nance",
+  "license": "MIT",
+  "keywords": [
+    "expo",
+    "react native",
+    "react navigation"
+  ],
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "dev": "expo start",
+    "start": "expo start",
+    "lint": "eslint ./src",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "web-build": "expo build:web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.6",
+    "@react-native-community/masked-view": "0.1.5",
+    "@react-navigation/bottom-tabs": "^5.0.0",
+    "@react-navigation/material-bottom-tabs": "^5.0.0",
+    "@react-navigation/native": "^5.0.0",
+    "@react-navigation/stack": "^5.0.0",
+    "axios": "^0.19.2",
+    "expo": "^36.0.0",
+    "expo-asset": "~8.0.0",
+    "expo-font": "~8.0.0",
+    "prop-types": "^15.7.2",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
+    "react-native-appearance": "~0.3.1",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-modal": "^11.5.3",
+    "react-native-paper": "^3.6.0",
+    "react-native-reanimated": "~1.4.0",
+    "react-native-safe-area-context": "0.6.0",
+    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-snap-carousel": "^3.8.4",
+    "react-native-svg": "9.13.3",
+    "react-native-tab-view": "^2.13.0",
+    "react-native-web": "^0.11.7",
+    "react-navigation": "^4.0.6",
+    "react-navigation-stack": "^1.5.1",
+    "react-navigation-tabs": "^2.4.0",
+    "swr": "^0.1.17",
+    "unfetch": "^4.1.0",
+    "victory-native": "^34.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-preset-expo": "^8.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-import-helpers": "^1.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "prettier": "^1.18.2"
+  },
+  "private": true,
+  "prettier": {
+    "singleQuote": true
+  },
+  "engines": {
+    "node": ">=10.8.0"
+  }
+}

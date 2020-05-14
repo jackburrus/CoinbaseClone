@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Coinbase Clone",
+    "description": "react native multi screen application starter with expo",
+    "scheme": "expomultiscreenstarter",
+    "slug": "expomultiscreenstarter",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "version": "0.0.2",
+    "platforms": ["android", "ios", "web"],
+    "githubUrl": "https://github.com/calebnance/expo-multi-screen-starter",
+    "orientation": "portrait",
+    "primaryColor": "#2a2a2a",
+    "icon": "src/assets/icon.png",
+    "splash": {
+      "backgroundColor": "#2a2a2a",
+      "image": "src/assets/coinbaseSplash.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["src/assets/**/*"],
+    "android": {
+      "versionCode": 2
+    },
+    "ios": {
+      "buildNumber": "0.0.2",
+      "supportsTablet": true
+    }
+  }
+}
