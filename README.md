@@ -23,6 +23,8 @@ Install: `yarn` or `yarn install`
 
 Run Project Locally: `expo start` or `yarn dev`
 
+Add API keys to the file under constants.
+
 
 
 <p align="left">

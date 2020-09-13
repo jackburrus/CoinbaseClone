@@ -14,14 +14,13 @@ export default function App() {
   useEffect(() => {
     const getApiData = async () => {
       const results = await func.getData().then(res => res);
-      // console.log(results);
       setData(results);
     };
     getApiData();
     const getNewsApiData = async () => {
       const results = await func.getNewsData().then(res => res);
       setNewsData(results);
-      // console.log(results);
+     
     };
     getNewsApiData();
     setDataLoaded(true);
@@ -43,13 +42,4 @@ export default function App() {
     </ConfigProvider>
   );
 
-  // return isLoading === false ? (
-  //   <AppLoading startAsync={func.loadAssetsAsync} />
-  // ) : (
-  //     <ConfigProvider data={data} newsData={newsData}>
-  //       <PaperProvider>
-  //         <MainAppNavigator />
-  //       </PaperProvider>
-  //     </ConfigProvider>
-  //   );
 }
