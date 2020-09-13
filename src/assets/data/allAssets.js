@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import GainersLosersLinesItem from '../../components/GainersLosersLineItem';
@@ -18,7 +19,6 @@ const AllAssets = () => (
         if (coinList.indexOf(coin.CoinInfo.FullName) > -1) {
           return (
             <View key={coin.CoinInfo.Id}>
-              {/* {console.log(coin)} */}
               <GainersLosersLinesItem
                 coinIcon={`https://cryptocompare.com/${coin.CoinInfo.ImageUrl}`}
                 title={coin.CoinInfo.FullName}
@@ -67,7 +67,6 @@ const TradableAssets = () => (
         if (coinList.indexOf(coin.CoinInfo.FullName) > -1) {
           return (
             <View key={coin.CoinInfo.Id}>
-              {/* {console.log(coin.CoinInfo.ImageUrl)} */}
               <GainersLosersLinesItem
                 coinIcon={`https://cryptocompare.com/${coin.CoinInfo.ImageUrl}`}
                 title={coin.CoinInfo.FullName}
@@ -138,7 +137,6 @@ const TopLosers = () => (
         if (coinList.indexOf(coin.CoinInfo.FullName) > -1) {
           return (
             <View key={coin.CoinInfo.Id}>
-              {/* {console.log(coin.CoinInfo.ImageUrl)} */}
               <GainersLosersLinesItem
                 coinIcon={`https://cryptocompare.com/${coin.CoinInfo.ImageUrl}`}
                 title={coin.CoinInfo.FullName}

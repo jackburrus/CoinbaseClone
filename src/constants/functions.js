@@ -51,19 +51,6 @@ const getData = async () => {
     .catch(error => {
       throw error;
     });
-  // const results = await axios
-  //   .get(newsApi, headers)
-  //   .then(response => response.data)
-  //   .catch(error => {
-  //     throw error;
-  //   });
-  // const finalResult = Promise.all([promise2, promise1]).then(result => {
-  //   const combined = result.reduce((acc, result) => {
-  //     return acc.concat(result);
-  //   }, []);
-  //   return combined;
-  //   // console.log(combined);
-  // });
 
   return results;
 };
@@ -85,11 +72,9 @@ const getTopMover = (currentPrice, prevPrice) => {
 
   if (result > 1) {
     const res = (result / 100) * 10000 - 100;
-    console.log('+', res.toFixed(2));
     return res.toFixed(2);
   }
   const res = (result / 100) * 10000 - 100;
-  console.log(res.toFixed(2));
   return res.toFixed(2);
 };
 
